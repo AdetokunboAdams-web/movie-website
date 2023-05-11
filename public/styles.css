@@ -1,0 +1,30 @@
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: gray;
+}
+
+.container{
+    width: 340px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 1s box-shadow;
+    cursor: pointer;
+}
+.container:hover{
+    box-shadow: 20px 5px 35px 0px royalblue;
+}
+a{
+    color: lightseagreen;
+}
+
+.big-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.title{
+    text-align: center;
+}
